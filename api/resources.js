@@ -2,8 +2,8 @@ import { Octokit } from "@octokit/rest";
 
 export default async function handler(req, res) {
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-  const OWNER = "jing-gou";
-  const REPO = "njupt-notes";
+  const OWNER = "Liyi-Grand";
+  const REPO = "SDJU-notes";
 
   try {
     // 1. 获取主分支最新的 commit SHA

@@ -208,7 +208,7 @@ export default function Home() {
 
         <div className="relative max-w-4xl mx-auto px-4 pt-20 pb-8 text-center">
           <h1 className={`text-5xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r transition-all duration-900 hover:scale-105 active:scale-95 ${darkMode ? 'from-blue-400 to-pink-400' : 'from-blue-600 to-pink-600'} ${isSearching ? 'opacity-10 blur-md scale-90' : 'opacity-100'}`}>
-            NJUPT Notes
+            SDJU Notes
           </h1>
         <p className={`text-lg md:text-xl mb-12 transition-all duration-500 ${
             darkMode ? 'text-slate-400' : 'text-slate-600'
@@ -246,7 +246,7 @@ export default function Home() {
               <RefreshCw size={18} /> 刷新
             </button>
             <a 
-              href="https://github.com/jing-gou/njupt-notes" 
+              href="https://github.com/Liyi-Grand/SDJU-notes" 
               target="_blank" 
               rel="noopener noreferrer"
               className={`flex items-center gap-2 px-6 py-3 rounded-xl font-medium shadow-lg transition-all duration-300 transform hover:scale-105 active:scale-95 ${

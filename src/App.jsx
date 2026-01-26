@@ -27,7 +27,7 @@ function AppContent() {
               ? 'from-blue-400 to-purple-400' 
               : 'from-blue-600 to-purple-600'
           }`}>
-            NJUPT Notes
+            SDJU Notes
           </div>
 
           {/* 导航按钮 */}

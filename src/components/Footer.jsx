@@ -14,21 +14,24 @@ const Footer = ({ darkMode }) => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white font-bold shadow-lg shadow-blue-500/20">
-                N
+                S
               </div>
               <span className={`text-xl font-bold tracking-tight ${darkMode ? 'text-slate-200' : 'text-slate-800'}`}>
-                NJUPT Notes
+                SDJU Notes
               </span>
             </div>
             <p className="text-sm leading-relaxed max-w-sm">
-              由 <span className="font-semibold text-blue-500">Sugar</span> 开发维护。
+              由 <span className="font-semibold text-blue-500">Liyi</span> 开发维护。
               本项目旨在整合校园优质资料，所有资源均免费提供给同学们学习参考。欢迎上传共享！
             </p>
             <p className="text-xs opacity-60 uppercase tracking-widest">
-              © 2025 - 2026 NJUPT NOTES.
+              © 2025 - 2026 SDJU NOTES. All rights reserved.
             </p>
             <p className="text-xs opacity-60 uppercase tracking-widest">
               Powered By Vercel.
+            </p>
+            <p className="text-xs opacity-60 uppercase tracking-widest">
+              Forked from jing-gou.
             </p>
           </div>
 

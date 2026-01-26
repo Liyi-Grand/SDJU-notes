@@ -28,9 +28,9 @@ export default async function handler(req, res) {
     const { fileName, content, course, category } = req.body;
 
     // 仓库配置
-    const OWNER = "jing-gou"; // 你的 GitHub 用户名
-    const REPO = "njupt-notes"; // 你的仓库名
-    
+    const OWNER = "Liyi-Grand"; // 你的 GitHub 用户名
+    const REPO = "SDJU-notes"; // 你的仓库名
+
     // 3. 自动探测主分支名称 (兼容 main 或 master)
     let baseBranch = "main";
     try {
